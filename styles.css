@@ -1,0 +1,83 @@
+
+.colored-section{
+  font-family: "Montserrat, sans-serif";
+  color: white;
+  background-color: black;
+  padding: 3% 5% 7%;
+}
+.plain-section{
+  font-family: "Ubuntu, sans-serif";
+  color: black;
+  background-color: white;
+  padding: 3% 5% 7%;
+}
+/* title section */
+#title{
+  height: 100vh;
+}
+.title-image{
+  width: 100%;
+  position: static;
+}
+.title-image-text{
+  text-align: center;
+}
+.token{
+  text-align: center;
+  margin-top: 15%;
+}
+/* about section */
+.about{
+  text-align: center;
+  font-size: 5rem;
+}
+.about-image{
+  width: 100%;
+}
+/* tokenomics section */
+.tokenomics{
+  text-align: center;
+}
+.pricing-column{
+  padding: 10% 10%;
+}
+/* roadmap section */
+.roadmap{
+  text-align: center;
+  font-size: 5rem;
+}
+
+#roadmap-carousel{
+  padding: 7% 15%;
+  text-align: center;
+  height: 100vh;
+}
+/* community section */
+#community{
+  padding: 7% 15%;
+  text-align: center;
+}
+@media only screen and (min-width: 992px) {
+  .title-image{
+    width: 100%;
+    position: static;
+    margin-top: 30%;
+  }
+  .token{
+    text-align: center;
+    margin-top: 45%;
+  }
+}
+@media (min-width: 600px) and (max-width: 991px) {
+  .title-image{
+    width: 100%;
+    position: static;
+  }
+  .title-image-text{
+    text-align: center;
+  }
+  .token{
+    text-align: center;
+    margin-top: 15%;
+  }
+}
