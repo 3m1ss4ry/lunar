@@ -1,50 +1,50 @@
-
-.colored-section{
+.colored-section {
   font-family: "Montserrat, sans-serif";
   color: white;
   background-color: black;
   padding: 3% 5% 7%;
   text-align: center;
 }
-.plain-section{
+
+.plain-section {
   font-family: "Ubuntu, sans-serif";
   color: black;
   background-color: white;
   padding: 3% 5% 7%;
 }
+
 /* title section */
-.title-image{
+.title-image {
   width: 100%;
   position: static;
 }
-.token{
-  text-align: center;
-  margin-top: 50px;
-}
-.title-image-text{
+
+.title-image-text {
   padding-top: 60px;
   text-align: center;
 }
-/* about section */
-.about{
+
+/* about & roadmap section */
+.about, .roadmap {
   text-align: center;
   font-size: 5rem;
 }
-.about-image{
+
+/* about section */
+.about-image {
   width: 100%;
 }
+
 /* tokenomics section */
-.tokenomics{
+.tokenomics {
   text-align: center;
 }
-.pricing-column{
-  padding: 10% 10%;
+
+.pricing-column {
+  padding: 10%;
 }
+
 /* roadmap section */
-.roadmap{
-  text-align: center;
-  font-size: 5rem;
-}
 .roadmap-carousel {
   text-align: center;
   height: 70vh;
